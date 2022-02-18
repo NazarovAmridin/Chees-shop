@@ -1,0 +1,150 @@
+/*
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Roboto Slab', serif;
+font-family: 'Lato', sans-serif;
+*/
+
+
+body {
+
+	background: linear-gradient(to bottom right, 
+	rgba(176, 194, 65, 1),
+	rgba(202, 235, 3, 1)
+);
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 16px;
+}	
+
+header.header {
+	width: 1180px;
+	height: 50px;
+	margin-top: 76px;
+	margin-left: 210px;
+	
+
+}
+
+.logotype {
+	width: 50px;
+	height: 50px;
+}
+
+.head {
+	display: flex;
+	align-items: center;
+
+}
+
+.head .logo {
+	display:  flex;
+}
+
+.head .menu {
+	display: flex;
+	margin-left: 280px;
+	
+	letter-spacing: 0.001em;
+}
+
+
+.head .menu li {
+	margin-right: 37px;
+	list-style-type: none;
+}
+
+.head .logo h6 {
+	width: 70px;
+	height: 28px;
+	font-size: 12px;
+	margin: 0;
+	margin-top: 23px;
+}
+
+.head .telnum {
+	margin-left: auto;
+}
+
+.head .menu li a, .telnum {
+	color: #000;
+	font-weight: bold;
+	font-family: 'Montserrat', sans-serif;
+	text-decoration: none;
+
+}	
+
+.head .logo .name-tag {
+	font-family: 'Lato', sans-serif;
+}
+
+.about .name-page {
+	width: 355px;
+	height: 115px;
+	font-size: 32px;
+}
+
+.about {
+	display: flex;
+	width: 1246px;
+	height: 502px;
+	margin-left: 210px;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.about .paragraph {
+	width: 355px;
+	height: 23px;
+	font-size: 18px;
+	margin-top: 26px;
+	margin-bottom: 43px;
+}
+
+.about .chees {
+	width: 637px;
+	height: 467px;
+}
+
+.about .button {
+	width: 280px;
+	height: 70px;
+	background: #000;
+	color: #fff;
+	border-radius: 27px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 24px;
+	box-shadow: 15px 15px 15px 7px rgba(0, 0, 0, 0.25);
+
+}
+
+.about .block-1 {
+	width: 355px;
+	height: 277px;
+	margin-top: 166px;
+	margin-right: 254px;
+}
+
+.about .block-2 {
+	margin-top: 73px;
+}
+
+.owners {
+	display: flex;
+	font-family: 'Roboto Slab', sans-serif;
+	font-size: 14px;
+	align-items: center;
+	margin-left: 210px;
+	margin-top: 129px;
+}
+
+.owners .email {
+	color: #000;
+	text-decoration: none;
+}
+
+.owners .owner {
+	margin-left: 76px;
+	font-size: 14px;
+	font-weight: normal;
+}
+
